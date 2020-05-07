@@ -1,0 +1,105 @@
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+body{
+    margin: 0;
+    font-family:"Arial Black","Arial Bold",Gadget,sans-serif;
+    text-align: center;
+
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    color: #71c9ce;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #71c9ce;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    
+    border-style: none;
+    border-top: 8px dotted lightgray;
+    width: 10%;
+    /* border-top-width: 8px; */
+    /* border-top-style: dotted; */
+    /* border-top-color: lightgray; */
+    
+}
+.container-top{
+    position: relative;
+    padding-top: 100px;
+    background-color: #e3fdfd;
+   
+    margin-left: 0px;
+   
+}
+.contact-me{
+    width: 40%;
+    margin: 100px auto;
+    line-height: 2;
+}
+.contact-me .btn{
+    background-color: #71c9ce;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.container-bottom{
+    position: relative;
+    padding-top: 10px;
+    background-color: #e3fdfd;
+
+    margin-left: 0px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.container-top h2 span{
+    text-decoration: underline;
+}
+.profile{
+    padding: 100px 0;
+    width: 30%;
+    margin: 100px auto;
+}
+.profile-p{
+    line-height: 2;
+}
+.skill-row{
+width: 50%;
+margin: 100px auto;
+text-align: left;
+line-height: 2;
+overflow: auto;
+}
+.skill-photo{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.java-photo{
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.skills{
+    padding-top: 100px;
+}
